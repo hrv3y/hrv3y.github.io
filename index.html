@@ -1,30 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>harvey</title>
+  <head>
+    <title>
+      harveyontheinternet
+    </title>
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="harveyontheinternet">
+    <meta property="og:description" content="my home on the internet, and links to profiles.">
+    <meta property="og:image" content="https://profiles.cache.lol/hrv/picture?v=1736042159.7916">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="/favicon.ico?v=1736042152">
+    <link href="https://cdn.cache.lol/profiles/themes/css/base.css?v=2024-09-10" rel="stylesheet">
     <style>
-        body {
-            background-color: #1F3F4C;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Atkinson Hyperlegible', sans-serif;
-            color: #D5ECF4;
+    /* This theme is made with css.omg.lol */
+    @import url(https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i);
+    @import url(https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i);
+    .statuslol { background: #1f3f4c !important; border: solid#89c0d2 ; border-radius: 1em !important}
+    .statuslol_emoji { width: 1em !important}
+    #name { font-family: Atkinson Hyperlegible ; font-weight: 600 ; color: #d5ecf4 }
+    body { font-family: Atkinson Hyperlegible ; font-weight: 100 ; color: #d5ecf4 ; background: #1f3f4c }
+    a { color: #d5ecf4 ; border-color: #d5ecf4 }
+    main { background: #1f3f4c }
+    #profile-picture { border-radius: 100% }
+    #pronouns { color: #d5ecf4 }
+    .omg-verified { color: #89c0d2 }
+    .fa-li, .fas, .omg-icon:not(.omg-verified), .omg-icon path:not(.omg-verified path) { color: #89c0d2 ; fill: #89c0d2 ; stroke: #89c0d2 }
+    .fa-briefcase { color: #89c0d2 }
+    .fa-location-dot { color: #89c0d2 }
+    #prami { display: none }
+    .logotype { color: #d5ecf4 }
+    .logotype.dot { color: #89c0d2 }
+    #bio { color: #d5ecf4 }
+    .statuslol_content { color: #d5ecf4 !important}
+    .statuslol_time a { color: #89c0d2 !important; border-bottom: 1px dotted #89c0d2 !important}
+    .statuslol_content p { font-size: 1em !important}
+    .prami-left-eye, .prami-right-eye { fill: #1b292c }
+    .prami-left-eye-pupil, .prami-right-eye-pupil, .prami-mouth { stroke: #1b292c }
+    .prami-left-cheek, .prami-right-cheek { fill: #89c0d2 }
+    .prami-body { fill: #d5ecf4 }
+    a:link, a:visited, a:active {
+    color: #d5ecf4 !important;
+    border-bottom: #d5ecf4 !important
+    }
+    a:hover {
+    color: #89c0d2 !important;
+    }
+    </style>
+    
+<meta name="fediverse:creator" content="@hrv@social.lol" />
+
+    <style>
+        #footer .fa-plug {
+                transform: rotate(0deg);
+                transition: all 0.3s ease;
         }
-        .centered-text {
-            font-size: 14pt;
-            font-weight: 400;
-            letter-spacing: 1px;
+        #footer:hover .fa-plug {
+                transform: rotate(90deg);
+                transition: all 0.3s ease;
         }
     </style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-    <link rel="me" href="https://social.lol/@hrv/">
-</head>
-<body>
-    <div class="centered-text"><a style="color:#D5ECF4" href="https://social.lol/@hrv"><strong>hrv3y.xyz</strong></a>  <div class="centered-text"><a style="color:#D5ECF4" href="https://hrv.bearblog.dev/">blog</a>  <div class="centered-text"><a style="color:#D5ECF4" href="https://hrv3y.xyz/contact/">contact</a>  <div class="centered-text"><a style="color:#D5ECF4" href="https://hrv.omg.lol/">links</a></div>
-</body>
+  </head>
+  <body>
+    <main class="h-card">
+      <div id="profile-picture-container">
+        <img class="u-photo" alt="hrv" id="profile-picture" src="https://profiles.cache.lol/hrv/picture?v=1736042152">
+      </div>
+      <h1 class="p-name" id="name">
+        Harvey Cuckson <a id="verification" style="text-decoration: none; border: 0;" href="https://home.omg.lol/lookup/hrv"><i class="omg-icon omg-verified"></i></a>
+      </h1>
+      <div class="metadata" id="pronouns">
+        he/him
+      </div>
+      <div class="metadata p-job-title" id="occupation">
+        <i class="fa-solid fa-fw fa-briefcase"></i> High School
+      </div>
+      <div class="metadata p-region" id="location">
+        <i class="fa-solid fa-fw fa-location-dot"></i> Australia
+      </div>
+      <div id="profile-items">
+        <ul class="fa-ul">
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-pen"></i></span><a class="u-url" rel="me" href="https://hrv.url.lol/weblog">blog</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-solid fa-envelope"></i></span><a class="u-url" rel="me" href="mailto:hello@hrv3y.xyz">email</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-discord"></i></span><a class="u-url" rel="me" href="https://discordapp.com/users/969129892614660096">discord</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-signal-messenger"></i></span><a class="u-url" rel="me" href="https://signal.me/#eu/6UWlkx82AL1rb5XduXemnTaoJq7AxufVdoqKIvW3_b-Psn-74SNH94XTtGIRPX7D">signal</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="fa-brands fa-mastodon"></i></span><a class="u-url" rel="me" href="https://social.lol/@hrv">mastodon</a>
+          </li>
+          <li>
+            <span class="fa-li"><i class="omg-icon omg-letterboxd"></i></span><a class="u-url" rel="me" href="https://letterboxd.com/hrvc">letterboxd</a>
+          </li>
+        </ul>
+        <script src="https://status.lol/hrv.js?time&amp;link&amp;fluent&amp;pretty"></script>
+      </div>
+      <div id="footer">
+        <a href="https://home.omg.lol/referred-by/hrv"><i class="fa-solid fa-fw fa-plug"></i> Powered by omg.lol</a>
+      </div>
+    </main>
+  </body>
 </html>
